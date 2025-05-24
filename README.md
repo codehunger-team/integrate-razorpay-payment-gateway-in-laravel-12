@@ -1,14 +1,22 @@
 <p align="center">
-  <a href="https://laravel.com" target="_blank">
-    <img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo">
-  </a>
+    <a href="https://laravel.com" target="_blank">
+        <img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo">
+    </a>
 </p>
 
 <p align="center">
-  <a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-  <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-  <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-  <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
+    <a href="https://github.com/laravel/framework/actions">
+        <img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status">
+    </a>
+    <a href="https://packagist.org/packages/laravel/framework">
+        <img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads">
+    </a>
+    <a href="https://packagist.org/packages/laravel/framework">
+        <img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version">
+    </a>
+    <a href="https://packagist.org/packages/laravel/framework">
+        <img src="https://img.shields.io/packagist/l/laravel/framework" alt="License">
+    </a>
 </p>
 
 # Integrate Razorpay Payment Gateway in Laravel 12 Without Any Package
@@ -19,10 +27,27 @@ This repository demonstrates a clean, package-free integration of the Razorpay p
 
 ## About This Integration
 
-- Create Razorpay orders using native Laravel HTTP client
+- Create Razorpay orders using Laravel's native HTTP client
 - Implement frontend Razorpay checkout with minimal UI
-- Securely verify payment signature on the server side
-- Easy to understand and extend code
+- Securely verify payment signatures on the server side
+- Easy-to-understand and extend code
+
+---
+
+## Blog Tutorial
+
+For a detailed step-by-step guide, visit the blog post:
+
+[Integrate Razorpay Payment Gateway In Laravel 12 Without Any Package With Example](https://www.codehunger.in/blog/integrate-razorpay-payment-gateway-in-laravel-12-without-any-package-with-example)
+
+---
+
+## About CodeHunger Pvt Ltd
+
+This integration and tutorial are proudly created by CodeHunger Pvt Ltd, a professional Laravel development company.
+
+- **Website:** [https://www.codehunger.in](https://www.codehunger.in)
+- **Contact Us:** [https://www.codehunger.in/contact-us](https://www.codehunger.in/contact-us)
 
 ---
 
@@ -33,26 +58,4 @@ Clone this repository and set your Razorpay API credentials in your `.env` file:
 ```env
 RAZORPAY_API_KEY=your_key_here
 RAZORPAY_API_SECRET=your_secret_here
-Start the Laravel development server:
-
-bash
-Copy
-Edit
-php artisan serve
-Open your browser and visit:
-
-arduino
-Copy
-Edit
-http://127.0.0.1:8000/pay
-Blog Tutorial
-For a detailed step-by-step guide, visit the blog post at:
-
-Integrate Razorpay Payment Gateway In Laravel 12 Without Any Package With Example
-
-About CodeHunger Pvt Ltd
-This integration and tutorial are proudly created by CodeHunger Pvt Ltd, a professional Laravel development company.
-
-Website: https://www.codehunger.in
-
-Contact Us: https://www.codehunger.in/contact-us
+```
