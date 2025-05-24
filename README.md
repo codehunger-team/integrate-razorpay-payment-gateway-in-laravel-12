@@ -1,6 +1,6 @@
 <p align="center">
     <a href="https://www.codehunger.in" target="_blank">
-        <img src="https://www.codehunger.in/assets/image/logo.png" width="400" alt="Laravel Logo">
+        <img src="https://www.codehunger.in/assets/image/logo.png"  alt="Laravel Logo">
     </a>
 </p>
 
